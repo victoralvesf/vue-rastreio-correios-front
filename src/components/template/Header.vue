@@ -20,12 +20,15 @@ export default {
     background: $primary;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 5px rgba(#333, 0.3);
+    border-bottom: 1px solid rgba(#000, 0.1);
 
     .row {
       width: 80vw;
       height: 100%;
       display: flex;
       align-items: center;
+      justify-content: center;
 
       h1 {
         margin-top: -3px;
